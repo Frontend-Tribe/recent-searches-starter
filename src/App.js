@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const searches = [
+    {
+      text: 'Portrait'
+    },
+    {
+      text: 'Smiling woman'
+    },
+    {
+      text: 'Nature'
+    },
+    {
+      text: 'City at night'
+    },
+    {
+      text: 'Buildings'
+    },
+    {
+      text: 'Landscape'
+    },
+    {
+      text: 'Autumn'
+    },
+    {
+      text: 'Trees in fall'
+    }
+  ];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Insert your code here */}
     </div>
   );
 }
